@@ -1,0 +1,21 @@
+"""
+Instance Methods
+
+This example demonstrates instance methods.
+"""
+
+
+class Person:
+
+    def __init__(self, name):
+
+        self.name = name
+
+    def introduce(self):
+
+        print(f"My name is {self.name}.")
+
+
+person = Person("MohammadReza")
+
+person.introduce()
